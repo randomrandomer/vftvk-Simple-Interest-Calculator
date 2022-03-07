@@ -1,4 +1,19 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {background-color:black;font-family:arial;color:white;text-align: justify;margin:auto}
+h1{color:grey;font-family:verdana;text-align: center;}
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+}
+.inputdiv{
+    line-height:2.5em;
+    padding: 0px;
+}
+body  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; position: relative; left: 20px}
+select{ display: table-cell; position: relative; left: 20px}
